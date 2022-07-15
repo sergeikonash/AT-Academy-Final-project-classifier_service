@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b55d5f6-9e82-4b65-bf54-35375dbf9e90" name="Changes" comment="With classifier_service">
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/sergeikonash/classifier_service/configs/DtoToEntityMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/sergeikonash/classifier_service/configs/ObjMapperConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/sergeikonash/classifier_service/controllers/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/app/sergeikonash/classifier_service/dto/PageDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/sergeikonash/classifier_service/controllers/CountryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/sergeikonash/classifier_service/controllers/CountryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/sergeikonash/classifier_service/dao/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/sergeikonash/classifier_service/dao/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/sergeikonash/classifier_service/dao/entity/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/sergeikonash/classifier_service/dao/entity/Country.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/sergeikonash/classifier_service/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/sergeikonash/classifier_service/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/sergeikonash/classifier_service/service/CountryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/sergeikonash/classifier_service/service/CountryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/sergeikonash/classifier_service/service/api/IService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/sergeikonash/classifier_service/service/api/IService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,26 +45,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/HP/IdeaProjects/Final_Project/events_service",
-    "spring.configuration.checksum": "8acadcfb5e5bbfe38a633f308ecb0657"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/HP/IdeaProjects/user-service&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;8acadcfb5e5bbfe38a633f308ecb0657&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="app.sergeikonash.classifier_service.dto" />
       <recent name="app.sergeikonash.classifier_service.service.api" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\HP\IdeaProjects\classifier_service\src\main\java\app\sergeikonash\classifier_service" />
       <recent name="C:\Users\HP\IdeaProjects\classifier_service\src\main\resources" />
       <recent name="C:\Users\HP\IdeaProjects\classifier_service\src\main\java\app\sergeikonash\classifier_service\controllers" />
     </key>
@@ -59,13 +77,25 @@
       <recent name="app.sergeikonash.classifier_service.service" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="app.sergeikonash.classifier_service.controllers" />
       <recent name="app.sergeikonash.classifier_service.dto" />
       <recent name="app.sergeikonash.classifier_service.service.api" />
       <recent name="app.sergeikonash.classifier_service.dao.entity" />
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="ClassifierApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassifierApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="classifier_service" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="app.sergeikonash.classifier_service.ClassifierApplication" />
       <extension name="coverage">
@@ -78,11 +108,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Spring Boot.ClassifierApplication" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -98,6 +123,16 @@
       <workItem from="1657618021408" duration="15512000" />
       <workItem from="1657655106510" duration="1215000" />
       <workItem from="1657656881236" duration="19000" />
+      <workItem from="1657657531511" duration="70000" />
+      <workItem from="1657701193929" duration="3957000" />
+      <workItem from="1657784803633" duration="68000" />
+      <workItem from="1657785248457" duration="7011000" />
+      <workItem from="1657870745987" duration="5427000" />
+      <workItem from="1657889060010" duration="917000" />
+      <workItem from="1657890011383" duration="1321000" />
+      <workItem from="1657891509789" duration="299000" />
+      <workItem from="1657891835766" duration="160000" />
+      <workItem from="1657892019954" duration="586000" />
     </task>
     <task id="LOCAL-00001" summary="With classifier_service">
       <created>1657648693980</created>
